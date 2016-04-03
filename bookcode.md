@@ -1,13 +1,11 @@
-dataset contain file
-- res.txt
-     columns:
-	subjecnno - number of volunteer
-	activity - six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-        testtype - mark of set (test or train) (The obtained dataset has been randomly partitioned into two sets, 
+## res.txt
+	- subjecnno - number of volunteer
+	- activity - six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+        - testtype - mark of set (test or train) (The obtained dataset has been randomly partitioned into two sets, 
                   where 70% of the volunteers was selected for generating the training data and 30% the test data)
 	
-	measuremenvariable - variable of measurement (see belong)
-	mean - average of each variable for each activity and each subject
+	- measuremenvariable - variable of measurement (see belong)
+	 -mean - average of each variable for each activity and each subject
 
 The features selected for dataset come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
 These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
