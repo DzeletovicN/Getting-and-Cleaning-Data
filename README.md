@@ -24,8 +24,6 @@ and selects coluumns with measurements on the mean and standard deviation (list 
 - does similar actions with files in folder "train" with mark "train"
 - Merges the training and the test sets to create one data set
 - change activity id to activity name (uses activity_labels.txt)
-- creates file union_mean_std.txt in the root directory
-
 - calculates means of each variable for each activity and each subject
 - pivot dataset from wertical to horisontal structure (move colunms of variables to the rows)
-- create file res.csv in the root directory
+- create file res.txt in the root directory
