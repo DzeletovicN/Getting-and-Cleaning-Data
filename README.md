@@ -12,9 +12,8 @@ In this was the working directory will be contained files
 - Reads the file with the activities catalogue (activity_labels.txt)
 - Reads the description file of the vector A-561 (features.txt) 
 and selects coluumns with measurements on the mean and standard deviation (list Colno)
-
--Goes into the folder "test"
--Reads files
+- Goes into the folder "test"
+- Reads files
   subject_test.txt to get numbers of subject
   y_test.txt to gen Activity data
   x_test.txt to get all measurements (data.frame measurement)
