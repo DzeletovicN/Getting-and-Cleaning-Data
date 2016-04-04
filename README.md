@@ -6,6 +6,7 @@ and setting a working folder in the root directory of the unpacked archive.
 In this was the working directory will be contained files
  - activity_labels.txt with subjects' activity dictionary
  - features.txt - File describing the structure of the vector A-561
+
 ##files:
 - bookcode.md - explains variables in res.txt
 - res.txt - tidy dataset obtained after running the R script (run_analysis.R).
